@@ -1,0 +1,178 @@
+body {
+    
+    background-color: #222222;
+    
+    font-family:"Arial";
+    color: white;
+    margin: 0 auto;
+    text-align: center;    
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;    
+}
+
+.promo{
+    background-color: white;
+    color: black;
+    height: 40px;
+    text-align: center;
+}
+
+.formulaire {
+
+    background-image: url('/home/rick/Bureau/BTS SIO/informatique/software/git/git/img/bgNetflix.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: inset 0px 0px 120px 100px #000000;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+
+    margin-bottom: 10px;
+    padding-bottom: 70px;
+    padding-top: 40px;
+
+}
+.top-bar{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+.NETFLIX,.double{
+    margin-top: 0;
+    padding: 5px;
+    
+
+}
+em {
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 25% / 25%;
+
+}
+.input{
+    width: 40%;
+}
+#form_input{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#p_input{
+    font-size: 12px;
+}
+#email_input{
+    flex: 1;
+    width: 75%;
+}
+#bouton_email{
+    background-color: red;
+    border: none;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 0px;
+    width: 25%;
+}
+#bouton_english{
+    background-color: #000;
+    border: 2px solid #666;
+    color: #666;
+    padding: 10px;
+    border-radius: 5px;
+}
+#bouton_sign{
+    background-color: red;
+    border: none;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.big_div {
+    background-color: #000000;
+    flex: 1;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lite_div {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+}  
+.div_min_img{
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    margin: 0 5px;
+    align-self: center;
+
+}
+.div_min_p{
+    text-align: left;
+    font-size: 20px;
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    align-self: center;
+}
+.div_min_img img{
+    max-width: 100%;
+}
+
+footer{
+    background-color: #000000;
+    font-family:"Arial";
+    font-weight: initial;
+    color: #666;
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;    
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;     
+}
+#div_footer{
+    margin: 0 auto;
+}
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+    
+}
+.tab{
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 35px;
+}
+ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #666; /* Couleur du texte du lien */
+  font-family:"Arial";
+  font-weight: initial; /* Police en gras pour le lien */
+}
