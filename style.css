@@ -22,7 +22,7 @@ body {
 
 .formulaire {
 
-    background-image: url('/home/rick/Bureau/BTS SIO/informatique/software/git/git/img/bgNetflix.png');
+    background-image: url('img/bgNetflix.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
