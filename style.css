@@ -72,7 +72,7 @@ em {
 }
 #email_input{
     flex: 1;
-    width: 75%;
+    width: 70%;
 }
 #bouton_email{
     background-color: red;
@@ -80,7 +80,7 @@ em {
     color: #FFF;
     padding: 15px;
     border-radius: 0px;
-    width: 25%;
+    width: 30%;
 }
 #bouton_english{
     background-color: #000;
