@@ -36,7 +36,6 @@ body {
     justify-content: space-between;
     height: 30%;
 
-    margin-bottom: 10px;
     padding-bottom: 70px;
     padding-top: 40px;
 
@@ -53,12 +52,21 @@ body {
     
 
 }
-em {
+#new {
+    font-size: 15px;
     background-color: red;
     color: whitesmoke;
-    border-radius: 25% / 25%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 5px;
+    line-height: 16px;
+    size: 12px;
+}
 
 }
+
 .input{
     width: 40%;
 }
@@ -83,7 +91,7 @@ em {
     width: 30%;
 }
 #bouton_english{
-    background-color: #000;
+    background-color: black;
     border: 2px solid #666;
     color: #666;
     padding: 10px;
@@ -100,7 +108,6 @@ em {
 .big_div {
     background-color: #000000;
     flex: 1;
-    margin: 0 0 10px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +120,6 @@ em {
     align-self: center;
 }  
 .div_min_img{
-    flex: 1;
     max-width: 30%;
     box-sizing: border-box;
     margin: 0 5px;
@@ -123,7 +129,6 @@ em {
 .div_min_p{
     text-align: left;
     font-size: 20px;
-    flex: 1;
     max-width: 30%;
     box-sizing: border-box;
     word-wrap: break-word;
@@ -140,7 +145,8 @@ footer{
     color: #666;
     margin: 0 auto;
     width: 100%;
-    text-align: left;    
+    text-align: left;  
+    padding: 0 0 20px 0;  
 
 
     display: flex;
@@ -158,6 +164,7 @@ footer{
     
 }
 .tab{
+
     width: 100%;
     margin: 0 auto;
     padding-right: 35px;
@@ -175,4 +182,12 @@ a {
   color: #666; /* Couleur du texte du lien */
   font-family:"Arial";
   font-weight: initial; /* Police en gras pour le lien */
+
+}
+a:hover {
+  color: #e74c3c; /* Nouvelle couleur au survol */
+}
+button:hover {
+  color: #345; /* Nouvelle couleur au survol */
+  background-color: #543;
 }
